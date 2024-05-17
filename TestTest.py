@@ -1,7 +1,7 @@
 import time
 
 from selenium import webdriver
-
+url_mata = ""
 edge_options = webdriver.EdgeOptions()
 # edge_options.add_argument('--headless')
 driver = webdriver.Edge(options=edge_options)
@@ -11,7 +11,7 @@ cookies = {
 }
 edge_options.add_argument(
     'Cookie=_const_huatu_jsession_id_=1672453988640.a4e05a9d-8c94-4f4a-a2c0-c1cf7fbc807b.tiku.htexam.com/frontEnd')
-driver.get("https://tiku.htexam.com/frontEnd/#/home/freeBuild")
+driver.get(url_mata)
 lis = driver.find_elements("xpath", '//*/ul/li')
 
 print(len(lis))
@@ -25,5 +25,3 @@ for i in range(len(lis)):
     except:
         pass
     print(f"{name}: {driver.current_url}")
-    driver.get("https://v.huatu.com/")
-    time.sleep(3)

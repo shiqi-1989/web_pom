@@ -50,11 +50,12 @@ def pytest_runtest_makereport(item, call):
 
 @pytest.fixture(scope='session', autouse=True)
 def driver():
-    options = webdriver.ChromeOptions()
+    # options = webdriver.ChromeOptions()
+    options = webdriver.EdgeOptions()
     mobile_emulation = {"deviceName": "iPhone 6/7/8 Plus"}
     # # 浏览器最大化
     # options.add_argument("--start-maximized")
-    options.add_argument('--window-size=414,896')
+    options.add_argument('--window-size=390,896')
     # # 隐藏正受到自动测试软件的控制。
     options.add_experimental_option('excludeSwitches', ['enable-automation'])
     # # 配置手机模式
@@ -66,8 +67,8 @@ def driver():
         # 进程锁
         with FileLock("session.lock"):
             if _driver is None:
-                _driver = webdriver.Chrome(options=options)
-                # _driver = webdriver.Edge(options=options)
+                # _driver = webdriver.Chrome(options=options)
+                _driver = webdriver.Edge(options=options)
                 # _driver.maximize_window()
     yield _driver
     logger.info("========== session级 后置操作:关闭浏览器,退出会话 ==========")
