@@ -7,8 +7,6 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 - [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
 
 ### 项目
-  - 注册
-  ![录制_2023_04_02_17_23_10_746](https://user-images.githubusercontent.com/48465237/229344280-57b54b10-e17e-4b15-b1db-d0e61b850088.gif)
-  - 登录
-  ![录制_2023_04_02_17_30_14_744](https://user-images.githubusercontent.com/48465237/229344554-1710d889-baa2-4569-8050-a01ca28882ce.gif)
+  - 项目总览
+  ![屏幕捕获_2024_05_17_13_49_24_911](https://github.com/shiqi-1989/web_pom/assets/48465237/515c5d72-4797-4192-9547-dac65a2ec52a)
 
