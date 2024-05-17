@@ -1,26 +1,26 @@
-2023-03-21 13:17:42,136 py30 INFO conftest.py-63 line：========== session级 前置操作:打开浏览器 ==========
-2023-03-21 13:18:02,455 py30 INFO keys_web.py-28 line：在行为：首页-点击开始测试，定位元素：['XPATH', "//*[@id='button']"]
-2023-03-21 13:18:03,323 py30 INFO keys_web.py-159 line：在行为：首页-点击开始测试，点击元素：['XPATH', "//*[@id='button']"]
-2023-03-21 13:18:04,627 py30 INFO keys_web.py-28 line：在行为：第1题-点击选项A，定位元素：['XPATH', "//*[@class='choice']/span[contains(text(),'A')]"]
-2023-03-21 13:18:05,518 py30 INFO keys_web.py-159 line：在行为：第1题-点击选项A，点击元素：['XPATH', "//*[@class='choice']/span[contains(text(),'A')]"]
-2023-03-21 13:18:07,675 py30 INFO keys_web.py-28 line：在行为：第2题-点击选项A，定位元素：['XPATH', "//*[@class='choice']/span[contains(text(),'A')]"]
-2023-03-21 13:18:08,573 py30 INFO keys_web.py-159 line：在行为：第2题-点击选项A，点击元素：['XPATH', "//*[@class='choice']/span[contains(text(),'A')]"]
-2023-03-21 13:18:10,692 py30 INFO keys_web.py-28 line：在行为：第3题-点击选项B，定位元素：['XPATH', "//*[@class='choice']/span[contains(text(),'B')]"]
-2023-03-21 13:18:11,656 py30 INFO keys_web.py-159 line：在行为：第3题-点击选项B，点击元素：['XPATH', "//*[@class='choice']/span[contains(text(),'B')]"]
-2023-03-21 13:18:13,840 py30 INFO keys_web.py-28 line：在行为：第4题-点击选项B，定位元素：['XPATH', "//*[@class='choice']/span[contains(text(),'B')]"]
-2023-03-21 13:18:14,677 py30 INFO keys_web.py-159 line：在行为：第4题-点击选项B，点击元素：['XPATH', "//*[@class='choice']/span[contains(text(),'B')]"]
-2023-03-21 13:18:23,066 py30 INFO keys_web.py-28 line：在行为：第5题-点击选项B，定位元素：['XPATH', "//*[@class='choice']/span[contains(text(),'B')]"]
-2023-03-21 13:18:23,903 py30 INFO keys_web.py-159 line：在行为：第5题-点击选项B，点击元素：['XPATH', "//*[@class='choice']/span[contains(text(),'B')]"]
-2023-03-21 13:18:26,022 py30 INFO keys_web.py-28 line：在行为：第6题-点击选项A，定位元素：['XPATH', "//*[@class='choice']/span[contains(text(),'A')]"]
-2023-03-21 13:18:26,885 py30 INFO keys_web.py-159 line：在行为：第6题-点击选项A，点击元素：['XPATH', "//*[@class='choice']/span[contains(text(),'A')]"]
-2023-03-21 13:18:28,992 py30 INFO keys_web.py-28 line：在行为：第7题-点击选项A，定位元素：['XPATH', "//*[@class='choice']/span[contains(text(),'A')]"]
-2023-03-21 13:18:29,829 py30 INFO keys_web.py-159 line：在行为：第7题-点击选项A，点击元素：['XPATH', "//*[@class='choice']/span[contains(text(),'A')]"]
-2023-03-21 13:18:31,940 py30 INFO keys_web.py-28 line：在行为：第8题-点击选项A，定位元素：['XPATH', "//*[@class='choice']/span[contains(text(),'A')]"]
-2023-03-21 13:18:32,785 py30 INFO keys_web.py-159 line：在行为：第8题-点击选项A，点击元素：['XPATH', "//*[@class='choice']/span[contains(text(),'A')]"]
-2023-03-21 13:18:34,922 py30 INFO keys_web.py-28 line：在行为：提交结果页-输入昵称，定位元素：['XPATH', "//input[@placeholder='输入你的昵称']"]
-2023-03-21 13:18:35,759 py30 INFO keys_web.py-147 line：在行为：提交结果页-输入昵称，给元素：['XPATH', "//input[@placeholder='输入你的昵称']"] 输入文本值：用户033
-2023-03-21 13:18:37,005 py30 INFO keys_web.py-28 line：在行为：提交结果页-点击提交按钮，定位元素：['XPATH', '//div[@class="subBtn"]']
-2023-03-21 13:18:37,853 py30 INFO keys_web.py-159 line：在行为：提交结果页-点击提交按钮，点击元素：['XPATH', '//div[@class="subBtn"]']
-2023-03-21 13:18:41,717 py30 INFO MBTI_page.py-46 line：预期 - INTJ  实际 - INTJ
+2024-05-17 13:40:09,203 py30 INFO conftest.py-64 line：========== session级 前置操作:打开浏览器 ==========
+2024-05-17 13:40:27,261 py30 INFO keys_web.py-28 line：在行为：首页-点击开始测试，定位元素：['XPATH', "//*[@id='button']"]
+2024-05-17 13:40:28,124 py30 INFO keys_web.py-159 line：在行为：首页-点击开始测试，点击元素：['XPATH', "//*[@id='button']"]
+2024-05-17 13:40:29,303 py30 INFO keys_web.py-28 line：在行为：第1题-点击选项B，定位元素：['XPATH', "//*[@class='choice']/span[contains(text(),'B')]"]
+2024-05-17 13:40:30,154 py30 INFO keys_web.py-159 line：在行为：第1题-点击选项B，点击元素：['XPATH', "//*[@class='choice']/span[contains(text(),'B')]"]
+2024-05-17 13:40:32,264 py30 INFO keys_web.py-28 line：在行为：第2题-点击选项A，定位元素：['XPATH', "//*[@class='choice']/span[contains(text(),'A')]"]
+2024-05-17 13:40:33,114 py30 INFO keys_web.py-159 line：在行为：第2题-点击选项A，点击元素：['XPATH', "//*[@class='choice']/span[contains(text(),'A')]"]
+2024-05-17 13:40:35,224 py30 INFO keys_web.py-28 line：在行为：第3题-点击选项B，定位元素：['XPATH', "//*[@class='choice']/span[contains(text(),'B')]"]
+2024-05-17 13:40:36,075 py30 INFO keys_web.py-159 line：在行为：第3题-点击选项B，点击元素：['XPATH', "//*[@class='choice']/span[contains(text(),'B')]"]
+2024-05-17 13:40:38,184 py30 INFO keys_web.py-28 line：在行为：第4题-点击选项B，定位元素：['XPATH', "//*[@class='choice']/span[contains(text(),'B')]"]
+2024-05-17 13:40:39,031 py30 INFO keys_web.py-159 line：在行为：第4题-点击选项B，点击元素：['XPATH', "//*[@class='choice']/span[contains(text(),'B')]"]
+2024-05-17 13:40:41,132 py30 INFO keys_web.py-28 line：在行为：第5题-点击选项B，定位元素：['XPATH', "//*[@class='choice']/span[contains(text(),'B')]"]
+2024-05-17 13:40:41,985 py30 INFO keys_web.py-159 line：在行为：第5题-点击选项B，点击元素：['XPATH', "//*[@class='choice']/span[contains(text(),'B')]"]
+2024-05-17 13:40:44,079 py30 INFO keys_web.py-28 line：在行为：第6题-点击选项A，定位元素：['XPATH', "//*[@class='choice']/span[contains(text(),'A')]"]
+2024-05-17 13:40:44,914 py30 INFO keys_web.py-159 line：在行为：第6题-点击选项A，点击元素：['XPATH', "//*[@class='choice']/span[contains(text(),'A')]"]
+2024-05-17 13:40:47,014 py30 INFO keys_web.py-28 line：在行为：第7题-点击选项A，定位元素：['XPATH', "//*[@class='choice']/span[contains(text(),'A')]"]
+2024-05-17 13:40:47,854 py30 INFO keys_web.py-159 line：在行为：第7题-点击选项A，点击元素：['XPATH', "//*[@class='choice']/span[contains(text(),'A')]"]
+2024-05-17 13:40:49,948 py30 INFO keys_web.py-28 line：在行为：第8题-点击选项A，定位元素：['XPATH', "//*[@class='choice']/span[contains(text(),'A')]"]
+2024-05-17 13:40:50,815 py30 INFO keys_web.py-159 line：在行为：第8题-点击选项A，点击元素：['XPATH', "//*[@class='choice']/span[contains(text(),'A')]"]
+2024-05-17 13:40:52,916 py30 INFO keys_web.py-28 line：在行为：提交结果页-输入昵称，定位元素：['XPATH', "//input[@placeholder='输入你的昵称']"]
+2024-05-17 13:40:53,764 py30 INFO keys_web.py-147 line：在行为：提交结果页-输入昵称，给元素：['XPATH', "//input[@placeholder='输入你的昵称']"] 输入文本值：用户161
+2024-05-17 13:40:54,847 py30 INFO keys_web.py-28 line：在行为：提交结果页-点击提交按钮，定位元素：['XPATH', '//div[@class="subBtn"]']
+2024-05-17 13:40:55,694 py30 INFO keys_web.py-159 line：在行为：提交结果页-点击提交按钮，点击元素：['XPATH', '//div[@class="subBtn"]']
+2024-05-17 13:40:57,884 py30 INFO MBTI_page.py-46 line：预期 - INTJ  实际 - INTJ
 
-2023-03-21 13:18:42,622 py30 INFO conftest.py-73 line：========== session级 后置操作:关闭浏览器,退出会话 ==========
+2024-05-17 13:40:58,568 py30 INFO conftest.py-74 line：========== session级 后置操作:关闭浏览器,退出会话 ==========
