@@ -2,9 +2,6 @@
 
 该项目生成图片结果，需要从图片内提取结果验证，因此设计图片裁剪提取等模块PIL、pytesseract，安装tesseract-ocr客户端
 
-## Recommended IDE Setup
-
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
 
 ### 项目
   - 项目总览
